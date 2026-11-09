@@ -81,3 +81,11 @@ Conclusion
 The RaceDay Part 3 project brings the different components of the RaceDay platform together through an ASP.NET Core MVC application.
 It provides separate interfaces for Organisers and Participants, integrates with the Part 2 API, supports Azure Blob Storage for image uploads, and uses Docker for containerisation.
 GitHub and GitHub Actions are used to manage the source code and automate the build process.
+
+Features
+Authentication and navigation
+Register and log in through the Part 2 API.
+The API's JWT and the user's role are kept in a server-side session (HttpOnly cookie, 60-minute idle timeout).
+Role-based navigation: Organisers and Participants each see only their own menu.
+Secure logout; protected pages redirect unauthenticated users to the login page, and wrong-role access shows an "Access denied" page.
+Pages are served with Cache-Control: no-store, so the back button after logout cannot reveal protected content.
