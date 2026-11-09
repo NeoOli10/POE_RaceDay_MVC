@@ -47,4 +47,13 @@ Azure Blob Storage Integration
 Azure Blob Storage is integrated through the Part 2 API.
 Organisers can upload event banner images, while Participants can upload profile pictures.
 The MVC application sends image uploads to the Part 2 API. The API handles the storage of images in Azure Blob Storage and makes them available for display in the application.
+How to Run the Application Locally
+Requirements
+Visual Studio 2022 or compatible development environment.
+.NET SDK required by the project.
+Access to the Part 2 API.
+SQL Server and required database configuration for the API.
+Steps
+Clone or download the GitHub repository.
+Open the MVC project in Visual Studio.
 
