@@ -67,4 +67,10 @@ GitHub Actions is used to automate the build process.
 The project includes:
 Source code for the MVC application.
 Dockerfile for containerisation.
+GitHub Actions workflow.
+README documentation.
+A minimum of 20 meaningful commits is required for Part 3.
+Error Handling and User Interface
+The application provides a consistent interface across its pages.
+Navigation is based on user roles.
 
