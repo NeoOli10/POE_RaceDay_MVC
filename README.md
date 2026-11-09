@@ -76,3 +76,6 @@ Navigation is based on user roles.
 Enrolment statuses are displayed using different colours.
 Invalid inputs are handled appropriately.
 The interface uses consistent fonts, colours and spacing.
+Bootstrap is used to support responsive layouts.
+Conclusion
+The RaceDay Part 3 project brings the different components of the RaceDay platform together through an ASP.NET Core MVC application.
