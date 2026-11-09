@@ -56,4 +56,11 @@ SQL Server and required database configuration for the API.
 Steps
 Clone or download the GitHub repository.
 Open the MVC project in Visual Studio.
+Ensure the Part 2 API is running.
+Check that the API base URL is correctly configured.
+Build the solution.
+Run the MVC application.
+Open the application using the local URL provided by Visual Studio.
+GitHub and CI/CD
+GitHub is used for source code management and version control.
 
