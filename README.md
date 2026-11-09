@@ -63,4 +63,8 @@ Run the MVC application.
 Open the application using the local URL provided by Visual Studio.
 GitHub and CI/CD
 GitHub is used for source code management and version control.
+GitHub Actions is used to automate the build process.
+The project includes:
+Source code for the MVC application.
+Dockerfile for containerisation.
 
