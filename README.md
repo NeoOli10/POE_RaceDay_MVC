@@ -45,3 +45,6 @@ Views: Display the user interface.
 Controllers: Handle user requests and communicate with the API.
 Azure Blob Storage Integration
 Azure Blob Storage is integrated through the Part 2 API.
+Organisers can upload event banner images, while Participants can upload profile pictures.
+The MVC application sends image uploads to the Part 2 API. The API handles the storage of images in Azure Blob Storage and makes them available for display in the application.
+
