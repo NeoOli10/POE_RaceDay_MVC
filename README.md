@@ -17,3 +17,24 @@ Manage event categories, including age and distance categories.
 View participants enrolled in specific events.
 View enrolment statuses.
 Capture participants’ finishing times and positions.
+Upload event banner images.
+Participant Interface
+View upcoming events.
+Filter available events.
+View event information and categories.
+Enrol in events and select categories.
+View personal enrolments and enrolment statuses.
+View personal race results.
+Update personal information and profile pictures.
+Technologies Used
+C#
+ASP.NET Core MVC
+ASP.NET Core Web API (Part 2)
+HTML
+CSS
+Bootstrap
+Azure Blob Storage
+Docker
+GitHub Actions
+System Architecture
+The RaceDay MVC application communicates with the Part 2 API to retrieve and manage information.
