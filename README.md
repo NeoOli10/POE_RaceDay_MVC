@@ -101,3 +101,11 @@ Participant interface
 Browse upcoming events and filter them.
 View event information and categories.
 Enrol in an event and choose a category.
+View personal enrolments and their statuses, and withdraw.
+View personal race results.
+Update personal information and upload a profile picture.
+UI and error handling
+Bootstrap-based responsive layout with consistent fonts, colours and spacing.
+Enrolment statuses shown as colour-coded badges.
+Server-side validation on all forms, with every POST protected by an anti-forgery token.
+API failures are turned into friendly messages and error pages, never stack traces.
