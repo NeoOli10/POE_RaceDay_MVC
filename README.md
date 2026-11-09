@@ -79,3 +79,4 @@ The interface uses consistent fonts, colours and spacing.
 Bootstrap is used to support responsive layouts.
 Conclusion
 The RaceDay Part 3 project brings the different components of the RaceDay platform together through an ASP.NET Core MVC application.
+It provides separate interfaces for Organisers and Participants, integrates with the Part 2 API, supports Azure Blob Storage for image uploads, and uses Docker for containerisation.
