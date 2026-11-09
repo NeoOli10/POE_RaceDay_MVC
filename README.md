@@ -73,4 +73,6 @@ A minimum of 20 meaningful commits is required for Part 3.
 Error Handling and User Interface
 The application provides a consistent interface across its pages.
 Navigation is based on user roles.
-
+Enrolment statuses are displayed using different colours.
+Invalid inputs are handled appropriately.
+The interface uses consistent fonts, colours and spacing.
