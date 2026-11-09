@@ -96,3 +96,8 @@ Manage event categories (age and distance categories).
 View the participants enrolled in each event and their enrolment statuses, and update a status.
 Capture finishing times and positions.
 Upload event banner images.
+
+Participant interface
+Browse upcoming events and filter them.
+View event information and categories.
+Enrol in an event and choose a category.
