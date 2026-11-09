@@ -114,3 +114,15 @@ Clone or download the repository.
 Configure the API in POE_RaceDay_API/POE_RaceDay_API/appsettings.json: the SQL connection string, the AzureBlobStorage connection string and container name, and the Jwt key (at least 32 characters).
 Start the Part 2 API with the http profile. It listens on http://localhost:5146 and opens Swagger.
 Check the API address in POE_RaceDay_MVC/appsettings.json:
+POE_RaceDay_MVC/
+├── .github/workflows/ci.yml
+├── Controllers/      Account, Events, Home, Media, Organiser*, Participant
+├── Filters/          RoleAuthorize, ApiExceptionFilter
+├── Helpers/          UiHelpers
+├── Models/           ApiModels, ViewModels
+├── Services/         RaceDayApi, SessionUser, ApiException
+├── Views/            Account, Events, Home, Organiser*, Participant, Shared
+├── wwwroot/          css, js
+├── Dockerfile
+├── Program.cs
+└── appsettings.json
