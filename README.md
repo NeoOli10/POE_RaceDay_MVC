@@ -109,3 +109,8 @@ Bootstrap-based responsive layout with consistent fonts, colours and spacing.
 Enrolment statuses shown as colour-coded badges.
 Server-side validation on all forms, with every POST protected by an anti-forgery token.
 API failures are turned into friendly messages and error pages, never stack traces.
+Steps
+Clone or download the repository.
+Configure the API in POE_RaceDay_API/POE_RaceDay_API/appsettings.json: the SQL connection string, the AzureBlobStorage connection string and container name, and the Jwt key (at least 32 characters).
+Start the Part 2 API with the http profile. It listens on http://localhost:5146 and opens Swagger.
+Check the API address in POE_RaceDay_MVC/appsettings.json:
