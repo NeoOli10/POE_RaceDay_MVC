@@ -38,3 +38,10 @@ Docker
 GitHub Actions
 System Architecture
 The RaceDay MVC application communicates with the Part 2 API to retrieve and manage information.
+The MVC application does not directly access the database. All data operations are handled through the Part 2 API.
+The application follows the Model-View-Controller (MVC) architecture:
+Models: Represent application data.
+Views: Display the user interface.
+Controllers: Handle user requests and communicate with the API.
+Azure Blob Storage Integration
+Azure Blob Storage is integrated through the Part 2 API.
