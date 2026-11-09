@@ -89,3 +89,10 @@ The API's JWT and the user's role are kept in a server-side session (HttpOnly co
 Role-based navigation: Organisers and Participants each see only their own menu.
 Secure logout; protected pages redirect unauthenticated users to the login page, and wrong-role access shows an "Access denied" page.
 Pages are served with Cache-Control: no-store, so the back button after logout cannot reveal protected content.
+Organiser interface
+Dashboard with event information and enrolment summaries.
+Create, edit and delete events.
+Manage event categories (age and distance categories).
+View the participants enrolled in each event and their enrolment statuses, and update a status.
+Capture finishing times and positions.
+Upload event banner images.
